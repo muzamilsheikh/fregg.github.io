@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.bg {
+  background-position: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.002), rgb(0, 0, 0)),
+    url(https://images.unsplash.com/photo-1511385348-a52b4a160dc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=907&q=80);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  padding: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo h1 {
+  color: white;
+}
+.logo {
+  margin-top: 10px;
+}
+.icon {
+  font-size: 36px;
+  color: white;
+  margin-top: 10px;
+}
+.text {
+  margin: 10%;
+}
+span {
+  color: #e93f1a;
+}
+.text h1 {
+  color: white;
+  font-size: 45px;
+}
+
+.text p {
+  color: white;
+  font-weight: 200;
+}
+.text button {
+  margin-top: 10px;
+  background-color: #e93f1a;
+  border: 1px solid #e93f1a;
+  border-radius: 5px;
+  padding: 15px;
+}
+.text button a {
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.about {
+  margin: 8%;
+}
+.about p {
+  margin-top: 10px;
+}
+.about button {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #e93f1a;
+  border: 1px solid #e93f1a;
+  border-radius: 5px;
+}
+.about button a {
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+}
+.container-inner img {
+  padding-top: 30px;
+}
+.row {
+  background-color: #f6f6f6;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.box1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 10%;
+}
+.box2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 10%;
+  padding-bottom: 20px;
+}
+.service1 button {
+  background-color: transparent;
+  border: 1px solid #e93f1a;
+  padding: 15px;
+  margin-top: 20px;
+}
+.service1 button a {
+  color: #e93f1a;
+  padding: 25px;
+}
+.service2 button {
+  background-color: transparent;
+  border: 1px solid #e93f1a;
+  padding: 15px;
+  margin-top: 20px;
+}
+.service2 button a {
+  color: #e93f1a;
+  padding: 25px;
+}
+.service3 button {
+  background-color: transparent;
+  border: 1px solid #e93f1a;
+  padding: 15px;
+  margin-top: 20px;
+}
+.service3 button a {
+  color: #e93f1a;
+  padding: 25px;
+}
+.service4 button {
+  background-color: transparent;
+  border: 1px solid #e93f1a;
+  padding: 15px;
+  margin-top: 20px;
+}
+.service4 button a {
+  color: #e93f1a;
+  padding: 25px;
+}
+.info {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.info button {
+  background-color: #e93f1a;
+  border: 1px solid #e93f1a;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+}
+.info button a {
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+}
+.bio1 {
+  display: flex;
+  justify-content: center;
+}
+input {
+  width: 20%;
+  margin: 20px;
+  height: 30px;
+}
+textarea {
+  width: 20%;
+  margin: 20px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.contect {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 10vh;
+}
+footer h2 {
+  padding: 20px;
+}
